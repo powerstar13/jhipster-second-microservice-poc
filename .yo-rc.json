@@ -1,0 +1,29 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "authenticationType": "oauth2",
+    "baseName": "SecondMicroservice",
+    "buildTool": "gradle",
+    "cacheProvider": "no",
+    "clientFramework": "react",
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "enableSwaggerCodegen": true,
+    "enableTranslation": true,
+    "entities": [],
+    "jhipsterVersion": "8.8.0",
+    "jwtSecretKey": "MGVkYzBiZmJiMmQ5OWYzNTg1NWYyOGNkMzA1ZjVkOGQ5NzA4OTNlYzI0NGZiMTFiZjU5YWMzYTg5YmYzMDI4ZjhhNjVhMTM0MTYzMTUzOGY3NDgyZmNmZDM1MWRhYTM1ZTg1MzAwYzJhNmE4NTQ1OTFiNjJkMDI4ZjM0ZDg5YzU=",
+    "languages": ["ko", "en"],
+    "messageBroker": "no",
+    "monorepository": true,
+    "nativeLanguage": "ko",
+    "packageName": "backend.jshong.poc.jhipster.secondmicroservice",
+    "prodDatabaseType": "no",
+    "serverPort": "8082",
+    "serviceDiscoveryType": "consul",
+    "skipCommitHook": true,
+    "skipUserManagement": true,
+    "testFrameworks": ["gatling"],
+    "websocket": "no"
+  }
+}
