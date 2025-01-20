@@ -1,11 +1,10 @@
 package backend.jshong.poc.jhipster.secondmicroservice.config;
 
 import backend.jshong.poc.jhipster.secondmicroservice.IntegrationTest;
+import java.util.Comparator;
 import org.junit.jupiter.api.ClassDescriptor;
 import org.junit.jupiter.api.ClassOrderer;
 import org.junit.jupiter.api.ClassOrdererContext;
-
-import java.util.Comparator;
 
 public class SpringBootTestClassOrderer implements ClassOrderer {
 
