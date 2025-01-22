@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SecondResource {
 
     @GetMapping("/hello")
-    public String hello(@RequestHeader("X-XSRF-TOKEN") String token) {
+    public String hello() {
         log.info("Hello from SecondResource");
         return "Hello from SecondResource";
     }
