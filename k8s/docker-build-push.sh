@@ -1,1 +1,1 @@
-docker build --platform linux/arm64 -t second-microservice ../
+docker buildx build -t second-microservice:latest --platform linux/amd64,linux/arm64 ..
